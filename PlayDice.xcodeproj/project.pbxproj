@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D496E771223F939300E9EAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496E770223F939300E9EAEF /* AppDelegate.swift */; };
+		D496E773223F939300E9EAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496E772223F939300E9EAEF /* ViewController.swift */; };
+		D496E776223F939300E9EAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D496E774223F939300E9EAEF /* Main.storyboard */; };
+		D496E778223F939400E9EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D496E777223F939400E9EAEF /* Assets.xcassets */; };
+		D496E77B223F939400E9EAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D496E779223F939400E9EAEF /* LaunchScreen.storyboard */; };
+		D496E786223F939400E9EAEF /* PlayDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496E785223F939400E9EAEF /* PlayDiceTests.swift */; };
+		D496E791223F939400E9EAEF /* PlayDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496E790223F939400E9EAEF /* PlayDiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D496E782223F939400E9EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D496E765223F939300E9EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D496E76C223F939300E9EAEF;
+			remoteInfo = PlayDice;
+		};
+		D496E78D223F939400E9EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D496E765223F939300E9EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D496E76C223F939300E9EAEF;
+			remoteInfo = PlayDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D496E76D223F939300E9EAEF /* PlayDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D496E770223F939300E9EAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D496E772223F939300E9EAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D496E775223F939300E9EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D496E777223F939400E9EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D496E77A223F939400E9EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D496E77C223F939400E9EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D496E781223F939400E9EAEF /* PlayDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D496E785223F939400E9EAEF /* PlayDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDiceTests.swift; sourceTree = "<group>"; };
+		D496E787223F939400E9EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D496E78C223F939400E9EAEF /* PlayDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D496E790223F939400E9EAEF /* PlayDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDiceUITests.swift; sourceTree = "<group>"; };
+		D496E792223F939400E9EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D496E76A223F939300E9EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E77E223F939400E9EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E789223F939400E9EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D496E764223F939300E9EAEF = {
+			isa = PBXGroup;
+			children = (
+				D496E76F223F939300E9EAEF /* PlayDice */,
+				D496E784223F939400E9EAEF /* PlayDiceTests */,
+				D496E78F223F939400E9EAEF /* PlayDiceUITests */,
+				D496E76E223F939300E9EAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D496E76E223F939300E9EAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D496E76D223F939300E9EAEF /* PlayDice.app */,
+				D496E781223F939400E9EAEF /* PlayDiceTests.xctest */,
+				D496E78C223F939400E9EAEF /* PlayDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D496E76F223F939300E9EAEF /* PlayDice */ = {
+			isa = PBXGroup;
+			children = (
+				D496E770223F939300E9EAEF /* AppDelegate.swift */,
+				D496E772223F939300E9EAEF /* ViewController.swift */,
+				D496E774223F939300E9EAEF /* Main.storyboard */,
+				D496E777223F939400E9EAEF /* Assets.xcassets */,
+				D496E779223F939400E9EAEF /* LaunchScreen.storyboard */,
+				D496E77C223F939400E9EAEF /* Info.plist */,
+			);
+			path = PlayDice;
+			sourceTree = "<group>";
+		};
+		D496E784223F939400E9EAEF /* PlayDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D496E785223F939400E9EAEF /* PlayDiceTests.swift */,
+				D496E787223F939400E9EAEF /* Info.plist */,
+			);
+			path = PlayDiceTests;
+			sourceTree = "<group>";
+		};
+		D496E78F223F939400E9EAEF /* PlayDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D496E790223F939400E9EAEF /* PlayDiceUITests.swift */,
+				D496E792223F939400E9EAEF /* Info.plist */,
+			);
+			path = PlayDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D496E76C223F939300E9EAEF /* PlayDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D496E795223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDice" */;
+			buildPhases = (
+				D496E769223F939300E9EAEF /* Sources */,
+				D496E76A223F939300E9EAEF /* Frameworks */,
+				D496E76B223F939300E9EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayDice;
+			productName = PlayDice;
+			productReference = D496E76D223F939300E9EAEF /* PlayDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D496E780223F939400E9EAEF /* PlayDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D496E798223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDiceTests" */;
+			buildPhases = (
+				D496E77D223F939400E9EAEF /* Sources */,
+				D496E77E223F939400E9EAEF /* Frameworks */,
+				D496E77F223F939400E9EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D496E783223F939400E9EAEF /* PBXTargetDependency */,
+			);
+			name = PlayDiceTests;
+			productName = PlayDiceTests;
+			productReference = D496E781223F939400E9EAEF /* PlayDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D496E78B223F939400E9EAEF /* PlayDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D496E79B223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDiceUITests" */;
+			buildPhases = (
+				D496E788223F939400E9EAEF /* Sources */,
+				D496E789223F939400E9EAEF /* Frameworks */,
+				D496E78A223F939400E9EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D496E78E223F939400E9EAEF /* PBXTargetDependency */,
+			);
+			name = PlayDiceUITests;
+			productName = PlayDiceUITests;
+			productReference = D496E78C223F939400E9EAEF /* PlayDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D496E765223F939300E9EAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tiwaporn;
+				TargetAttributes = {
+					D496E76C223F939300E9EAEF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D496E780223F939400E9EAEF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D496E76C223F939300E9EAEF;
+					};
+					D496E78B223F939400E9EAEF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D496E76C223F939300E9EAEF;
+					};
+				};
+			};
+			buildConfigurationList = D496E768223F939300E9EAEF /* Build configuration list for PBXProject "PlayDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D496E764223F939300E9EAEF;
+			productRefGroup = D496E76E223F939300E9EAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D496E76C223F939300E9EAEF /* PlayDice */,
+				D496E780223F939400E9EAEF /* PlayDiceTests */,
+				D496E78B223F939400E9EAEF /* PlayDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D496E76B223F939300E9EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D496E77B223F939400E9EAEF /* LaunchScreen.storyboard in Resources */,
+				D496E778223F939400E9EAEF /* Assets.xcassets in Resources */,
+				D496E776223F939300E9EAEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E77F223F939400E9EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E78A223F939400E9EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D496E769223F939300E9EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D496E773223F939300E9EAEF /* ViewController.swift in Sources */,
+				D496E771223F939300E9EAEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E77D223F939400E9EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D496E786223F939400E9EAEF /* PlayDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496E788223F939400E9EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D496E791223F939400E9EAEF /* PlayDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D496E783223F939400E9EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D496E76C223F939300E9EAEF /* PlayDice */;
+			targetProxy = D496E782223F939400E9EAEF /* PBXContainerItemProxy */;
+		};
+		D496E78E223F939400E9EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D496E76C223F939300E9EAEF /* PlayDice */;
+			targetProxy = D496E78D223F939400E9EAEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D496E774223F939300E9EAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D496E775223F939300E9EAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D496E779223F939400E9EAEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D496E77A223F939400E9EAEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D496E793223F939400E9EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D496E794223F939400E9EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D496E796223F939400E9EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D496E797223F939400E9EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D496E799223F939400E9EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayDice.app/PlayDice";
+			};
+			name = Debug;
+		};
+		D496E79A223F939400E9EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayDice.app/PlayDice";
+			};
+			name = Release;
+		};
+		D496E79C223F939400E9EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayDice;
+			};
+			name = Debug;
+		};
+		D496E79D223F939400E9EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiwaporn.buranasen.muk.PlayDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D496E768223F939300E9EAEF /* Build configuration list for PBXProject "PlayDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D496E793223F939400E9EAEF /* Debug */,
+				D496E794223F939400E9EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D496E795223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D496E796223F939400E9EAEF /* Debug */,
+				D496E797223F939400E9EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D496E798223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D496E799223F939400E9EAEF /* Debug */,
+				D496E79A223F939400E9EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D496E79B223F939400E9EAEF /* Build configuration list for PBXNativeTarget "PlayDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D496E79C223F939400E9EAEF /* Debug */,
+				D496E79D223F939400E9EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D496E765223F939300E9EAEF /* Project object */;
+}
