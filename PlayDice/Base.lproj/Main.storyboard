@@ -21,68 +21,108 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wllpaper1" translatesAutoresizingMaskIntoConstraints="NO" id="Lwc-GU-Fou">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo" highlightedImage="logo" translatesAutoresizingMaskIntoConstraints="NO" id="T71-ou-Jkm">
-                                <rect key="frame" x="135" y="87" width="150" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" highlightedImage="logo" translatesAutoresizingMaskIntoConstraints="NO" id="T71-ou-Jkm">
+                                <rect key="frame" x="132" y="87" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="6r9-ed-dJm"/>
-                                    <constraint firstAttribute="width" constant="150" id="F4h-mm-b9j"/>
+                                    <constraint firstAttribute="height" constant="150" id="CKz-F4-sCk"/>
+                                    <constraint firstAttribute="width" constant="150" id="cEZ-mi-xEI"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="dice4" translatesAutoresizingMaskIntoConstraints="NO" id="nfZ-OW-fjC">
-                                <rect key="frame" x="160" y="398" width="100" height="100"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="dice4" translatesAutoresizingMaskIntoConstraints="NO" id="Hbj-vE-XdZ">
-                                <rect key="frame" x="40" y="398" width="100" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlayDice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dms-WB-VyZ">
+                                <rect key="frame" x="133" y="245" width="148" height="57"/>
+                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="4FW-xN-tQq"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="148" id="i5L-Rp-bYW"/>
+                                    <constraint firstAttribute="width" constant="148" id="iKc-uo-lgJ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="py4-Yq-yRj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice4" translatesAutoresizingMaskIntoConstraints="NO" id="nfZ-OW-fjC">
+                                <rect key="frame" x="157" y="367" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="G4Y-J4-V1s"/>
+                                    <constraint firstAttribute="height" constant="100" id="LbU-IP-rk3"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="USr-NU-ycE"/>
+                                    <constraint firstAttribute="width" constant="100" id="bm5-6U-ec3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice4" translatesAutoresizingMaskIntoConstraints="NO" id="Hbj-vE-XdZ">
+                                <rect key="frame" x="36" y="367" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="4Nb-Jn-dXg"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="8Rd-9H-woV"/>
                                     <constraint firstAttribute="width" constant="100" id="JBD-kP-U0I"/>
                                     <constraint firstAttribute="height" constant="100" id="Vqi-aP-mWl"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="eYl-dT-dn6"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ejH-cQ-O6P"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="dice4" translatesAutoresizingMaskIntoConstraints="NO" id="kwd-Qx-1iS">
-                                <rect key="frame" x="275" y="398" width="99" height="100"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-ck-0IM">
-                                <rect key="frame" x="36.5" y="553" width="341" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-ck-0IM">
+                                <rect key="frame" x="36.5" y="475" width="341" height="47"/>
                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="Oq6-0Y-rBe"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="341" id="YVl-UP-7B0"/>
                                     <constraint firstAttribute="height" constant="47" id="oYg-j4-i7W"/>
                                     <constraint firstAttribute="width" constant="341" id="woJ-wX-aJA"/>
                                 </constraints>
                                 <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Random Dice"/>
+                                <connections>
+                                    <action selector="RamdomDiceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Sg-Xp-yRE"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PlayDice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dms-WB-VyZ">
-                                <rect key="frame" x="133" y="294" width="148" height="57"/>
-                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice4" translatesAutoresizingMaskIntoConstraints="NO" id="kwd-Qx-1iS">
+                                <rect key="frame" x="278" y="367" width="99" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="33T-5d-VoD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="99" id="7CE-Iq-a5f"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="99" id="8i5-em-zPn"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="Wmh-XI-uRp"/>
+                                    <constraint firstAttribute="height" constant="100" id="jzb-N5-pvo"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="wgD-vU-cbW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Hp-Qf-2Lv"/>
-                            <constraint firstItem="T71-ou-Jkm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="IT1-H1-PxV"/>
-                            <constraint firstItem="kwd-Qx-1iS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NC9-Xx-qfO"/>
-                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q1P-71-UyW"/>
-                            <constraint firstItem="tW0-ck-0IM" firstAttribute="top" secondItem="nfZ-OW-fjC" secondAttribute="bottom" constant="55" id="QVM-fr-09D"/>
-                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SVB-3a-dpi"/>
-                            <constraint firstItem="tW0-ck-0IM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zzw-tC-8ND"/>
-                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="b4J-aW-gEz"/>
-                            <constraint firstItem="Hbj-vE-XdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-117" id="ccs-9H-nXo"/>
-                            <constraint firstItem="Hbj-vE-XdZ" firstAttribute="top" secondItem="Dms-WB-VyZ" secondAttribute="bottom" constant="47" id="yrf-ll-sxG"/>
+                            <constraint firstItem="Hbj-vE-XdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-121" id="0nD-vL-n8G"/>
+                            <constraint firstItem="Hbj-vE-XdZ" firstAttribute="top" secondItem="T71-ou-Jkm" secondAttribute="bottom" constant="130" id="4kw-eX-rNg"/>
+                            <constraint firstItem="tW0-ck-0IM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4wV-5b-dcw"/>
+                            <constraint firstItem="nfZ-OW-fjC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AXj-4j-Tue"/>
+                            <constraint firstItem="nfZ-OW-fjC" firstAttribute="top" secondItem="Dms-WB-VyZ" secondAttribute="bottom" constant="65" id="BTO-RI-UnC"/>
+                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="L8r-em-U6K"/>
+                            <constraint firstItem="kwd-Qx-1iS" firstAttribute="top" secondItem="T71-ou-Jkm" secondAttribute="bottom" constant="130" id="QyB-ed-z9O"/>
+                            <constraint firstItem="Dms-WB-VyZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZBj-uN-fZX"/>
+                            <constraint firstItem="T71-ou-Jkm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="iaT-TH-HS2"/>
+                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ibE-rX-qzN"/>
+                            <constraint firstItem="kwd-Qx-1iS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="120.5" id="ie2-q5-COO"/>
+                            <constraint firstItem="tW0-ck-0IM" firstAttribute="top" secondItem="nfZ-OW-fjC" secondAttribute="bottom" constant="8" id="j3A-x1-JeD"/>
+                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lO2-Km-oGU"/>
+                            <constraint firstItem="T71-ou-Jkm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZc-ua-nhZ"/>
+                            <constraint firstItem="Dms-WB-VyZ" firstAttribute="top" secondItem="T71-ou-Jkm" secondAttribute="bottom" constant="8" id="tiS-fK-CYX"/>
+                            <constraint firstItem="Lwc-GU-Fou" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zOD-5e-ZBM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ThirdDticeimageview" destination="kwd-Qx-1iS" id="cjw-9l-KZb"/>
+                        <outlet property="firstDiceImageView" destination="Hbj-vE-XdZ" id="aBE-jC-cAn"/>
+                        <outlet property="secondDiceimageview" destination="nfZ-OW-fjC" id="wVJ-h0-4VK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="247.82608695652175" y="-53.571428571428569"/>
+            <point key="canvasLocation" x="862" y="-54"/>
         </scene>
     </scenes>
     <resources>
-        <image name="dice4" width="42.5" height="42.5"/>
+        <image name="Dice4" width="42.5" height="42.5"/>
         <image name="logo" width="72" height="72"/>
         <image name="wllpaper1" width="333" height="333"/>
     </resources>
